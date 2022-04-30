@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# IGN-CodeFoo-VideoPlayer
+> A web application created with React
+## 🚩 Table of Contents  
+* [IGNPloblem](#-IGNProblem) 
+* [Description](#-Description) 
+* [Tech](#-Tech)
+* [Credits](#-Credits)
+* [License](#-License)
+* [Demo](#-Demo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚩 IGNProblem 
+Hisui's New Power Plant<br />
+According to [link0](https://bulbapedia.bulbagarden.net/wiki/Voltorb_(Pok%C3%A9mon) ), Voltorb can generate power by a move called thunder shock when it reaches level 1. The power value is 40.<br />
+According to [link1](https://bulbapedia.bulbagarden.net/wiki/Electric_(type) ), a move called volt thunderbolt generates 10,000,000 volt, at a power value of 195. <br />
+Assume that one Voltorb can generate 40 / 195 * 10,000,000 = 2052 kilovolt at best.<br />
+According to [link2](https://bulbapedia.bulbagarden.net/wiki/Jubilife_City) , we know that Jubilife is<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Largest city in the region Sinnoh;<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most modernized city in the region Sinnoh;<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A place with TV station, Poketch Company, Trainers’s school, Global Trade station;<br />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A population of 87 - 124;<br />
+According to [link3](https://gamerant.com/pokemon-regions-real-world-kanto-johto-hoenn-sinnoh-unova-kalos-alola-galar/#:~:text=Sinnoh%2C%20however%2C%20is%20based%20largely,islands%20of%20Sakhalin%20and%20Kunashir) , Sinnoh is based largely on the Hokkaido region of Japan.  <br />
+According to [link4](https://www.ees.hokudai.ac.jp/carbon/mfujii/en/wp-content/uploads/sites/2/2015/04/enechen100_en_ver2015.pdf) , Hokkaido uses 31.2 billion kWh in 2020.  <br />
+The population of Hokkaido is 5.28 million, which means each person uses about 31200 / 5.28 = 5909 kWh per year. The consumption of electricity of Jubilife is 5909 * (87 + 124) / 2 = 623400 kWh.<br />
+According to [link5](https://www.thegamer.com/pokemon-sinnoh-locations-visit-real-world/), Jubilife is based on Sapporo, Hokkaido.<br /> 
+According to [link6]( https://dataportalforcities.org/east-asia/japan/hokkaido/sapporo-shi) , Sapparo uses 37800 TJ of electricity in 2016, which is 37800 * 278000 = 10.5 billion kWh, population of Sapparo is 1.95 million, per capita consumption is 10500 / 1.95 = 5385 kWh per year. The consumption of electricity of Jubilife is 5385 * (87 + 124) / 2 = 568118 kWh.<br />
+Assume that Jubilife uses (623400 + 568118) / 2 = 595759 kWh  per year.<br />
+Assumimg amps = 1.0, each Voltorb generates 4103 kW, that is 2052 * 24 * 365 = 17975520 kWh, which is larger than 595759, we only need one Voltorb to work constantly.<br />
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🚩 Description  
+This app features include a responsive, single-page web app for IGN video playlists based on the UI design mock below, using API.
+Include a video player area, stylized video controls, and the playlist queue. 
 
-### `npm start`
+## 🚩 Tech
+React JS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚩 Credits 
+@Author Yupeng Lei
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚩 License  
+The MIT License
 
-### `npm test`
+## 🚩 Demo
+[Demo](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/)  
+![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/Screen%20Shot%202022-04-29%20at%2011.39.21%20PM.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
