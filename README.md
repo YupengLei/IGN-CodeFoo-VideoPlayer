@@ -9,8 +9,8 @@
 * [License](#-License)
 
 ## 🚩 Demo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Please click this link to watch demo](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/)  <br />
-![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Please click this link to watch demo](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/) 
+ <br /> ![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
 
 ## 🚩 IGNProblem 
 Hisui's New Power Plant<br />
