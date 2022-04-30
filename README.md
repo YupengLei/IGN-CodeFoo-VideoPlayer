@@ -1,12 +1,16 @@
 # IGN-CodeFoo-VideoPlayer
 > A web application created with React
 ## 🚩 Table of Contents  
+* [Demo](#-Demo)
 * [IGNPloblem](#-IGNProblem) 
 * [Description](#-Description) 
 * [Tech](#-Tech)
 * [Credits](#-Credits)
 * [License](#-License)
-* [Demo](#-Demo)
+
+## 🚩 Demo
+[Demo](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/)  
+![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
 
 ## 🚩 IGNProblem 
 Hisui's New Power Plant<br />
@@ -40,8 +44,6 @@ React JS
 ## 🚩 License  
 The MIT License
 
-## 🚩 Demo
-[Demo](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/)  
-![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
+
 
 
