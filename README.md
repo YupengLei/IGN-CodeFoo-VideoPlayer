@@ -9,7 +9,7 @@
 * [License](#-License)
 
 ## 🚩 Demo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Please click this link to watch demo](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Please click this link to watch demo on Github pages](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/) 
 * ![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
 
 ## 🚩 IGNProblem 
