@@ -42,6 +42,6 @@ The MIT License
 
 ## 🚩 Demo
 [Demo](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/)  
-![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/Screen%20Shot%202022-04-29%20at%2011.39.21%20PM.png)
+![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
 
 
