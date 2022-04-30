@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IGN-CodeFoo-VideoPlayer/static/css/main.05a3658d.css",
+    "main.js": "/IGN-CodeFoo-VideoPlayer/static/js/main.e9e40018.js",
+    "index.html": "/IGN-CodeFoo-VideoPlayer/index.html",
+    "main.05a3658d.css.map": "/IGN-CodeFoo-VideoPlayer/static/css/main.05a3658d.css.map",
+    "main.e9e40018.js.map": "/IGN-CodeFoo-VideoPlayer/static/js/main.e9e40018.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05a3658d.css",
+    "static/js/main.e9e40018.js"
+  ]
+}
