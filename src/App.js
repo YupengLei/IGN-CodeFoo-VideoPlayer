@@ -151,9 +151,11 @@ export default class App extends React.Component {
   handleLoadMore = () => {
     let randomIndex = Math.floor(Math.random() * 301);
     let replaceString = `startIndex=${randomIndex}`;
-    const proxy = 'https://thingproxy.freeboard.io/fetch/';
-    //const proxy = '';
-    fetch(proxy + 'https://ign-apis.herokuapp.com/')
+    const proxy = 'https://cors-anywhere.herokuapp.com/';
+    fetch(proxy + 'https://ign-apis.herokuapp.com/', {
+      headers:{
+        "accepts":"application/json"
+    }})
     .then(response => response.json())
     .then(json => {
       const videoJsonUrl = json.endpoints[1].sampleRequest.replace('startIndex=30', replaceString);
@@ -173,11 +175,10 @@ export default class App extends React.Component {
     });                            
   }
 
-  componentDidMount = () => {
+  componentDidMount = () => {  
     let randomIndex = Math.floor(Math.random() * 301);
     let replaceString = `startIndex=${randomIndex}`;
-    const proxy = 'https://thingproxy.freeboard.io/fetch/';
-    //const proxy = '';
+    const proxy = 'https://cors-anywhere.herokuapp.com/';
     fetch(proxy + 'https://ign-apis.herokuapp.com/')
     .then(response => response.json())
     .then(json => {
