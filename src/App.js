@@ -152,6 +152,7 @@ export default class App extends React.Component {
     let randomIndex = Math.floor(Math.random() * 301);
     let replaceString = `startIndex=${randomIndex}`;
     const proxy = 'https://thingproxy.freeboard.io/fetch/';
+    //const proxy = '';
     fetch(proxy + 'https://ign-apis.herokuapp.com/')
     .then(response => response.json())
     .then(json => {
@@ -176,6 +177,7 @@ export default class App extends React.Component {
     let randomIndex = Math.floor(Math.random() * 301);
     let replaceString = `startIndex=${randomIndex}`;
     const proxy = 'https://thingproxy.freeboard.io/fetch/';
+    //const proxy = '';
     fetch(proxy + 'https://ign-apis.herokuapp.com/')
     .then(response => response.json())
     .then(json => {
