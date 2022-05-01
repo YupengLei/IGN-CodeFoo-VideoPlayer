@@ -2,6 +2,7 @@
 > A web application created with React
 ## 🚩 Table of Contents  
 * [Demo](#-Demo)
+* [Self_Introduction](#-Self_Introduction)
 * [IGNPloblem](#-IGNProblem) 
 * [Description](#-Description) 
 * [Tech](#-Tech)
@@ -11,6 +12,10 @@
 ## 🚩 Demo
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Please click this link to watch demo on Github pages](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/) 
 * ![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
+
+## 🚩 Self_Introduction
+I’m a front-end engineer, a fan of sharing info and tech and a hardcore subscriber to entertainment business, My daily reading includes but not limited to: Gamasutra for industry report, IGN and Gamespot for news. I dig IGN for its reviews, videos, and IGN Board. I dig Gamespot for news and previews. So is Eurogamer. I also dig Escapist for extra credit videos, EDEG and Develop for game development. And also Kotaku for news. My skills, knowledge and determination would be a good fit for the IGN Code Foo program.
+
 
 ## 🚩 IGNProblem 
 Hisui's New Power Plant<br />
