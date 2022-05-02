@@ -37,7 +37,7 @@ Assumimg amps = 1.0, each Voltorb generates 4103 kW, that is 2052 * 24 * 365 = 1
 
 
 ## 🚩 Description  
-This app features include a responsive, single-page web app for IGN video playlists based on the UI design mock below, using API.
+This app features include a responsive, single-page web app for IGN video playlists based on the UI design mock for IGN, using API.
 Include a video player area, stylized video controls, and the playlist queue. 
 
 ## 🚩 Tech
