@@ -10,7 +10,7 @@
 * [License](#-License)
 
 ## 🚩 Demo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Please click this link to watch demo on Github pages](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Please click this link to watch demo on Github pages](https://yupenglei.github.io/IGN-CodeFoo-VideoPlayer/) if it is not loading, go to link(https://cors-anywhere.herokuapp.com/corsdemo) to click for temporary proxy.
 * ![screenshot](https://github.com/YupengLei/IGN-CodeFoo-VideoPlayer/blob/main/public/screenshot.png)
 
 ## 🚩 Self_Introduction
