@@ -151,7 +151,7 @@ export default class App extends React.Component {
   handleLoadMore = () => {
     let randomIndex = Math.floor(Math.random() * 301);
     let replaceString = `startIndex=${randomIndex}`;
-    const proxy = 'https://cors-anywhere.herokuapp.com/';
+    const proxy = 'https://mighty-shelf-70474.herokuapp.com/';
     fetch(proxy + 'https://ign-apis.herokuapp.com/', {
       headers:{
         "accepts":"application/json"
